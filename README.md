@@ -12,7 +12,7 @@
 - 📈 I focus on **scalable architectures** and **high-performance systems**
 - 📍 Work account: [@Halim1Zaaim](https://github.com/Halim1Zaaim)
 - 🌱 Currently exploring **cloud-native applications** , **microservices** and **AI**
-
+<!--
 ---
 
 ### 🛠️ Tech Stack
@@ -48,7 +48,7 @@
 | Graph DB | ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) |
 
 ---
-
+-->
 ### 📫 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/halim-zaaim-662605224/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaaim1halim@gmail.com)
