@@ -12,6 +12,16 @@
 - 📈 I focus on **scalable architectures** and **high-performance systems**
 - 📍 Work account: [@Halim1Zaaim](https://github.com/Halim1Zaaim)
 - 🌱 Currently exploring **cloud-native applications** , **microservices** and **AI**
+
+---
+
+### 🚀 Projects
+
+- 📦 **[xPack](https://github.com/Zaaim-Halim/xPack)** — Package, install, update and roll back desktop and command-line applications on Windows, macOS and Linux, whatever language they are written in. Packages are signed, installing needs no administrator rights, and the previous version comes back if a new one fails to start. *Rust · pre-release*
+- 🛡️ **[ToolGate](https://github.com/Zaaim-Halim/ToolGate)** — A Java library that decides, outside the model, whether each tool call an AI agent makes may run, and records every decision with its reason. Works with Spring AI and LangChain4j. *Java · pre-release*
+- 🧑‍💼 **Humano** ![Coming soon](https://img.shields.io/badge/Coming_soon-F59E0B?style=flat-square) — An HR and payroll platform for managing people, leave and pay in one place. *Java · Spring Boot · Angular*
+
+---
 <!--
 ---
 
