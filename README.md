@@ -17,9 +17,39 @@
 
 ### 🚀 Projects
 
-- 📦 **[xPack](https://github.com/Zaaim-Halim/xPack)** — Package, install, update and roll back desktop and command-line applications on Windows, macOS and Linux, whatever language they are written in. Packages are signed, installing needs no administrator rights, and the previous version comes back if a new one fails to start. *Rust · pre-release*
-- 🛡️ **[ToolGate](https://github.com/Zaaim-Halim/ToolGate)** — A Java library that decides, outside the model, whether each tool call an AI agent makes may run, and records every decision with its reason. Works with Spring AI and LangChain4j. *Java · pre-release*
-- 🧑‍💼 **Humano** ![Coming soon](https://img.shields.io/badge/Coming_soon-F59E0B?style=flat-square) — An HR and payroll platform for managing people, leave and pay in one place. *Java · Spring Boot · Angular*
+#### 📦 [xPack](https://github.com/Zaaim-Halim/xPack)
+Package, install, update and roll back desktop and command-line applications on Windows, macOS and Linux, whatever language they are written in. *Rust · pre-release*
+
+- **Any runtime:** Java with a bundled JDK, Python with its interpreter, native binaries or shell scripts
+- **Signed end to end:** every package is signed with Ed25519, and the publisher's key is pinned on first install
+- **Safe updates:** new versions install beside the running one, switch over atomically, and roll back on their own if they fail to start
+- **No administrator rights:** everything installs per user, with no UAC prompt or `sudo`
+- **Controlled releases:** staged rollouts and delta updates that ship only what changed
+- **Real installers:** one double-click file with a native wizard, or `--silent` for scripts
+- **Hooks:** declared scripts to set up a service, migrate data or clean up
+
+#### 🛡️ [ToolGate](https://github.com/Zaaim-Halim/ToolGate)
+A Java library that decides, outside the model, whether each tool call an AI agent makes may run, and records every decision with its reason. *The model proposes; ToolGate decides.* *Java 21 · Spring AI · LangChain4j · pre-release*
+
+- **Policies in Java:** allow-lists, budgets, and rules on URLs, paths, email recipients, SQL, record ownership and roles
+- **Prompt injection defence:** taint rules hold a send after an agent has read untrusted content
+- **More than allow or deny:** downgrade a send to a draft, defer to a person, or end the run
+- **Monitor mode:** records what it would do without blocking anything, so it's safe to add to a running app
+- **Human approvals:** a review console and REST API, with webhook, Slack, Teams and email notifications
+- **Full audit trail:** every decision goes to logs, a database, Micrometer and OpenTelemetry
+- **Policy tooling:** draft a policy from recorded calls, test it, and replay calls through it before deploying
+
+#### 🧑‍💼 Humano ![Coming soon](https://img.shields.io/badge/Coming_soon-F59E0B?style=flat-square)
+An HR and payroll platform for companies with people in several countries, covering the whole employee journey from hiring to payslip. *Java · Spring Boot · Angular · in development*
+
+- **Multi-country payroll:** statutory payroll templates for multiple countries, with each employee paid in their own currency
+- **Pay runs:** calculate, review, approve and post, with payslips and configurable pay rules
+- **Leave pay:** rules for how each type of leave affects pay, country by country
+- **People:** employee records, documents, organization charts, and onboarding and offboarding
+- **Time and leave:** leave requests, approvals and timesheets
+- **Performance:** review cycles with calibration, goals, improvement plans and compensation reviews
+- **Self-service:** an employee portal for profiles, documents, leave and payslips
+- **Built for SaaS:** each company's data is kept in its own separate database
 
 ---
 <!--
